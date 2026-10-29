@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="th">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ประสบการณ์ - My Personal Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mitr:wght@200;300;400;500;600;700&amp;display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css"
+        integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+
+<body>
+    <a class="skip-link" href="#main-content">ข้ามไปยังเนื้อหาหลัก</a>
+    <header>
+        <input type="checkbox" id="menu-check" class="menu-check" aria-controls="main-nav">
+        <div class="h1-menu">
+            <p class="logo" lang="en">My Personal Portfolio</p>
+            <label for="menu-check"><span class="sr-only">เปิด/ปิดเมนูหลัก</span></label>
+        </div>
+        <nav id="main-nav" aria-label="เมนูหลัก">
+            <ul>
+                <li><a href="index.html"><i class="fa-solid fa-house" aria-hidden="true"></i>หน้าแรก</a></li>
+                <li><a href="about.html"><i class="fa-solid fa-circle-info" aria-hidden="true"></i>เกี่ยวกับ</a></li>
+                <li><a href="hobby.html"><i class="fa-solid fa-rocket" aria-hidden="true"></i>งานอดิเรก</a></li>
+                <li><a href="works.html"><i class="fa-solid fa-box-archive" aria-hidden="true"></i>ผลงาน</a></li>
+                <li><a href="experience.html" class="active" aria-current="page"><i class="fa-solid fa-street-view" aria-hidden="true"></i>ประสบการณ์</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main id="main-content" tabindex="-1">
+        <nav class="breadcrumb" aria-label="เส้นทางนำทาง">
+            <ol>
+                <li><a href="index.html" lang="en">Home</a></li>
+                <li><span class="arrow" aria-hidden="true">&gt;</span><a href="experience.html" class="active" aria-current="page" lang="en">Experience Page</a></li>
+            </ol>
+        </nav>
+        <article class="page-content">
+            <h1>ประสบการณ์จากวิชานี้</h1>
+            <p class="lead"><span lang="en">CP352201 Web Design Technology</span> · ภาคเรียนที่ 1/2569</p>
+            <ul class="chips" aria-label="ข้ามไปยังหัวข้อ">
+                <li><a href="#learn">สิ่งที่ได้เรียนรู้</a></li>
+                <li><a href="#lab-exp">ประสบการณ์ที่ชอบ</a></li>
+                <li><a href="#suggest">ข้อเสนอแนะ</a></li>
+                <li><a href="#heart">ความในใจ</a></li>
+            </ul>
+
+            <section class="block" id="learn" aria-labelledby="h-learn">
+                <h2 id="h-learn">สิ่งที่ได้เรียนรู้</h2>
+                <div class="grid">
+                    <div class="card">
+                        <h3>ความรู้ด้านเทคนิค</h3>
+                        <p>เขียน HTML/CSS เองโดยไม่ใช้ Framework และทำเว็บให้รองรับหน้าจอมือถือด้วย Responsive Web Design</p>
+                    </div>
+                    <div class="card">
+                        <h3>ด้านการออกแบบ</h3>
+                        <p>หลัก 8 Golden Rules และ Accessibility เช่น คอนทราสต์ของสี ปุ่มที่กดง่าย และข้อความแทนรูปภาพ</p>
+                    </div>
+                    <div class="card">
+                        <h3>ทักษะอื่น ๆ</h3>
+                        <p>การทำงานเป็นทีมในโปรเจกต์กลุ่ม การตรวจโค้ดและแก้ปัญหาด้วยตัวเอง</p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="block" id="lab-exp" aria-labelledby="h-labexp">
+                <h2 id="h-labexp">ประสบการณ์ในรายวิชาที่ชอบ</h2>
+                <div class="split">
+                    <img src="img/pic3.png" alt="หน้าจอเว็บเกม Lost and Found: Apocalypse City จากโปรเจกต์กลุ่ม" width="1856" height="945">
+                    <div>
+                        <p><strong>งานที่ภูมิใจที่สุด:</strong> โปรเจกต์กลุ่มเว็บเกม Lost and Found: Apocalypse City ที่ผมรับผิดชอบการออกแบบ Layout 20 หน้า</p>
+                        <p><strong>ปัญหาที่เจอ:</strong> มาทำในเวลากระชั้นชิดทำให้พลาดไปในหลายๆจุดที่ควรทำได้ดีกว่านี้</p>
+                        <a class="btn" href="works.html">ดูผลงานทั้งหมด</a>
+                    </div>
+                </div>
+            </section>
+
+            <section class="block" id="suggest" aria-labelledby="h-suggest">
+                <h2 id="h-suggest">ข้อเสนอแนะรายวิชา</h2>
+                <div class="grid">
+                    <div class="card">
+                        <h3>สิ่งที่ชอบ</h3>
+                        <ul>
+                            <li>ได้ลงมือเขียนโค้ดเองทุกสัปดาห์</li>
+                            <li>งานแต่ละชิ้นต่อยอดกันได้</li>
+                        </ul>
+                    </div>
+                    <div class="card">
+                        <h3>ควรปรับปรุง</h3>
+                        <ul>
+                            <li>อยากให้อาจารย์สอนโค้ดแบบตัวอาจารย์มาสอนเองเลยไม่ผ่าน TA สอนแก้โค้ดด้วยเช่นยกตัวอย่างโค้ดมาแล้วนั่งแก้โชว์</li>
+                        </ul>
+                    </div>
+                    <div class="card">
+                        <h3>ข้อเสนอแนะถึงรุ่นน้อง</h3>
+                        <ul>
+                            <li>ลงมือทำตามทุกแลปค่อยๆทำตาม TA</li>
+                            <li>เริ่มทำ Assignment แต่เนิ่น ๆ อย่าลืมทำ</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <section class="block" id="heart" aria-labelledby="h-heart">
+                <h2 id="h-heart">ความในใจ</h2>
+                <div class="card wide-card">
+                    <p class="indent">"ก่อนเรียนวิชานี้ผมมองว่าการทำเว็บคือการทำให้หน้าเว็บสวยเท่านั้น แต่ตอนนี้เข้าใจว่าต้องคิดถึงคนใช้งานทุกกลุ่มด้วย ผมอยากนำสิ่งที่ได้เรียนรู้ไปต่อยอดกับการพัฒนาเว็บไซต์และเกมในอนาคต"</p>
+                </div>
+            </section>
+        </article>
+    </main>
+    <footer>
+        <p>&copy; 2026 [Tanachotpat Khamphan 683380419-8] <span aria-hidden="true">●</span> <span lang="en">CP352201 Web Design Technology Sec.2</span></p>
+        <nav aria-label="เมนูส่วนท้าย">
+            <ul>
+                <li><a href="index.html">หน้าแรก</a></li>
+                <li><a href="about.html">เกี่ยวกับ</a></li>
+                <li><a href="hobby.html">งานอดิเรก</a></li>
+                <li><a href="works.html">ผลงาน</a></li>
+                <li><a href="experience.html">ประสบการณ์</a></li>
+            </ul>
+        </nav>
+    </footer>
+</body>
+
+</html>

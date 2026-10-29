@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300">
+<defs>
+<pattern id="g" width="20" height="20" patternUnits="userSpaceOnUse"><path d="M20 0H0V20" fill="none" stroke="#1F3A5F" stroke-width="1"/></pattern>
+<filter id="glow"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
+<rect width="400" height="300" rx="12" fill="#0A1424"/>
+<rect width="400" height="300" rx="12" fill="url(#g)"/>
+<rect x="50" y="50" width="300" height="200" rx="10" fill="#0F1C2E" stroke="#4FD8E8" stroke-width="2" filter="url(#glow)"/>
+<path d="M50 80h300" stroke="#4FD8E8" stroke-width="2"/>
+<circle cx="70" cy="65" r="5" fill="#F1A35E"/><circle cx="88" cy="65" r="5" fill="#4FD8E8"/><circle cx="106" cy="65" r="5" fill="#FAF7F2"/>
+<g font-family="Courier New, monospace" font-size="20" fill="#4FD8E8">
+<text x="70" y="118">&gt; whoami</text>
+<text x="70" y="152" fill="#FAF7F2">student.cs</text>
+<text x="70" y="186" fill="#F1A35E">year: 2</text>
+</g>
+<rect x="70" y="204" width="12" height="22" fill="#4FD8E8" filter="url(#glow)"/>
+</svg>

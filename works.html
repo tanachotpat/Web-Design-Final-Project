@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="th">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ผลงาน - My Personal Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mitr:wght@200;300;400;500;600;700&amp;display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css"
+        integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+
+<body>
+    <a class="skip-link" href="#main-content">ข้ามไปยังเนื้อหาหลัก</a>
+    <header>
+        <input type="checkbox" id="menu-check" class="menu-check" aria-controls="main-nav">
+        <div class="h1-menu">
+            <p class="logo" lang="en">My Personal Portfolio</p>
+            <label for="menu-check"><span class="sr-only">เปิด/ปิดเมนูหลัก</span></label>
+        </div>
+        <nav id="main-nav" aria-label="เมนูหลัก">
+            <ul>
+                <li><a href="index.html"><i class="fa-solid fa-house" aria-hidden="true"></i>หน้าแรก</a></li>
+                <li><a href="about.html"><i class="fa-solid fa-circle-info" aria-hidden="true"></i>เกี่ยวกับ</a></li>
+                <li><a href="hobby.html"><i class="fa-solid fa-rocket" aria-hidden="true"></i>งานอดิเรก</a></li>
+                <li><a href="works.html" class="active" aria-current="page"><i class="fa-solid fa-box-archive" aria-hidden="true"></i>ผลงาน</a></li>
+                <li><a href="experience.html"><i class="fa-solid fa-street-view" aria-hidden="true"></i>ประสบการณ์</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main id="main-content" tabindex="-1">
+        <nav class="breadcrumb" aria-label="เส้นทางนำทาง">
+            <ol>
+                <li><a href="index.html" lang="en">Home</a></li>
+                <li><span class="arrow" aria-hidden="true">&gt;</span><a href="works.html" class="active" aria-current="page" lang="en">Works Page</a></li>
+            </ol>
+        </nav>
+        <article class="page-content">
+            <h1>ผลงานและ Assignment</h1>
+            <p class="lead">รวมงานที่ทำในรายวิชานี้ แบ่งเป็นงานในแลบและ Assignment</p>
+            <ul class="chips" aria-label="ข้ามไปยังหัวข้อ">
+                <li><a href="#lab">งานในแลบ</a></li>
+                <li><a href="#assignment">Assignment</a></li>
+            </ul>
+
+            <section class="block" id="lab" aria-labelledby="h-lab">
+                <h2 id="h-lab">งานในแลบ</h2>
+                <div class="grid">
+                    <div class="card">
+                        <img src="img/pic11.jpg" alt="ตัวอย่างผลงาน Lab 1: หน้าเว็บแนะนำตัวมีหัวข้อ Lab 01 : HTML และตารางข้อมูลนักศึกษา" width="540" height="586" loading="lazy">
+                        <h3>Lab 1: Web Design Basic</h3>
+                        <ul class="tags" aria-label="เทคนิคที่ใช้"><li>HTML</li><li>CSS</li></ul>
+                    </div>
+                    <div class="card">
+                        <img src="img/pic12.jpg" alt="ตัวอย่างผลงาน Lab 2: แถบสีรุ้งและรูปตุ๊กตาหมีใส่ชุดสีฟ้ายืนบนพรมแดงที่มีแสงไฟส่อง" width="692" height="626" loading="lazy">
+                        <h3>Lab 2: Web Site Design Principles</h3>
+                        <ul class="tags" aria-label="เทคนิคที่ใช้"><li>HTML</li><li>CSS</li></ul>
+                    </div>
+                    <div class="card">
+                        <img src="img/pic13.jpg" alt="ตัวอย่างผลงาน Lab 4-1: ข้อความลิงก์ Link to Google ที่ตกแต่งด้วย CSS บนพื้นหลังสีเหลือง" width="852" height="166" loading="lazy">
+                        <h3>Lab 4-1: Cascading Style Sheets</h3>
+                        <ul class="tags" aria-label="เทคนิคที่ใช้"><li>HTML</li><li>CSS</li></ul>
+                    </div>
+                    <div class="card">
+                        <img src="img/pic14.jpg" alt="ตัวอย่างผลงาน Lab 4-2: กล่องข้อความไล่สีพร้อมเงา และฟอร์มกรอกข้อมูลที่ตกแต่งด้วย CSS" width="992" height="342" loading="lazy">
+                        <h3>Lab 4-2: Cascade Rule</h3>
+                        <ul class="tags" aria-label="เทคนิคที่ใช้"><li>HTML</li><li>CSS</li></ul>
+                    </div>
+                    <div class="card">
+                        <img src="img/pic15.jpg" alt="ตัวอย่างผลงาน Lab 5: ตัวอย่างการจัดรูปแบบตัวอักษรและย่อหน้าบนหน้าเว็บ" width="1427" height="420" loading="lazy">
+                        <h3>Lab 5: Web Typography</h3>
+                        <ul class="tags" aria-label="เทคนิคที่ใช้"><li>HTML</li><li>CSS</li></ul>
+                    </div>
+                    <div class="card">
+                        <img src="img/pic16.jpg" alt="ตัวอย่างผลงาน Lab 6: กล่องข้อความที่กำหนดเส้นขอบ ระยะห่าง และสีพื้นหลังต่าง ๆ" width="807" height="627" loading="lazy">
+                        <h3>Lab 6: Box Properties</h3>
+                        <ul class="tags" aria-label="เทคนิคที่ใช้"><li>HTML</li><li>CSS</li></ul>
+                    </div>
+                    <div class="card">
+                        <img src="img/pic17.jpg" alt="ตัวอย่างผลงาน Lab 7: เลย์เอาต์หน้าเว็บมีส่วน Header, Nav, Article, Aside และ Footer" width="1370" height="291" loading="lazy">
+                        <h3>Lab 7: Page Layouts</h3>
+                        <ul class="tags" aria-label="เทคนิคที่ใช้"><li>HTML</li><li>CSS</li></ul>
+                    </div>
+                    <div class="card">
+                        <img src="img/pic18.jpg" alt="ตัวอย่างผลงาน Lab 8: เมนูนำทางแนวตั้งใต้แถบหัวเว็บสีชมพู" width="872" height="205" loading="lazy">
+                        <h3>Lab 8: Site Navigation</h3>
+                        <ul class="tags" aria-label="เทคนิคที่ใช้"><li>HTML</li><li>CSS</li></ul>
+                    </div>
+                    <div class="card">
+                        <img src="img/pic19.jpg" alt="ตัวอย่างผลงาน Lab 9: การ์ดสี่ใบเรียงเป็นคอลัมน์ ใน Column 1 ถึง Column 4" width="472" height="227" loading="lazy">
+                        <h3>Lab 9: Responsive Web Design</h3>
+                        <ul class="tags" aria-label="เทคนิคที่ใช้"><li>HTML</li><li>CSS</li></ul>
+                    </div>
+                    <div class="card">
+                        <img src="img/pic20.jpg" alt="ตัวอย่างผลงาน Lab 10: เลย์เอาต์หน้าเว็บแบ่งเป็นแถบหัวเว็บ เมนูซ้าย เนื้อหา และส่วนท้ายหลายสี" width="607" height="442" loading="lazy">
+                        <h3>Lab 10: Google SEO</h3>
+                        <ul class="tags" aria-label="เทคนิคที่ใช้"><li>HTML</li><li>CSS</li></ul>
+                    </div>
+                    <div class="card">
+                        <img src="img/pic21.jpg" alt="ตัวอย่างผลงาน Lab 11: ลวดลายไอศกรีมการ์ตูนบนพื้นหลังสีชมพูเข้ม" width="1411" height="660" loading="lazy">
+                        <h3>Lab 11: Graphics and Color</h3>
+                        <ul class="tags" aria-label="เทคนิคที่ใช้"><li>HTML</li><li>CSS</li></ul>
+                    </div>
+                    <div class="card">
+                        <img src="img/pic22.jpg" alt="ตัวอย่างผลงาน Lab 12: แบบฟอร์ม Design Form มีช่องชื่อ อีเมล ข้อเสนอแนะ ตัวเลือก และปุ่มส่ง" width="662" height="662" loading="lazy">
+                        <h3>Lab 12: Tables</h3>
+                        <ul class="tags" aria-label="เทคนิคที่ใช้"><li>HTML</li><li>CSS</li></ul>
+                    </div>
+                </div>
+            </section>
+
+            <section class="block" id="assignment" aria-labelledby="h-assign">
+                <h2 id="h-assign">Assignment</h2>
+                <div class="grid two">
+                    <div class="card row">
+                        <img src="img/pic4.jpg" alt="หน้าเว็บ Assignment 1 ที่จัด Layout ด้วยเมนูด้านข้างและตาราง" width="1287" height="946" loading="lazy">
+                        <div class="info">
+                            <h3>Assignment 1</h3>
+                            <p><strong>โจทย์:</strong> การจัด Layout หน้าเว็บ</p>
+                            <p><strong>สิ่งที่ได้เรียนรู้:</strong> โครงสร้าง HTML พื้นฐาน ตาราง และรายการ</p>
+                        </div>
+                    </div>
+                    <div class="card row">
+                        <img src="img/pic5.jpg" alt="หน้าเว็บ Assignment 2 เรื่อง Learning HTML5 มีวิดีโอ แคนวาส และรูปภาพ" width="1400" height="986" loading="lazy">
+                        <div class="info">
+                            <h3>Assignment 2</h3>
+                            <p><strong>โจทย์:</strong> เว็บหน้า Learning HTML5</p>
+                            <p><strong>สิ่งที่ได้เรียนรู้:</strong> การใช้วิดีโอ และรูปภาพของ HTML5</p>
+                        </div>
+                    </div>
+                    <div class="card row">
+                        <img src="img/pic6.jpg" alt="หน้าเว็บ Assignment 4-1 หัวข้อ My Favorite Movies แสดงรายชื่อหนังพร้อมโปสเตอร์" width="1847" height="961" loading="lazy">
+                        <div class="info">
+                            <h3>Assignment 4-1</h3>
+                            <p><strong>โจทย์:</strong> ออกแบบหน้าเว็บไซต์หนังที่ชอบ</p>
+                            <p><strong>สิ่งที่ได้เรียนรู้:</strong> การเลือกสีและจัดองค์ประกอบให้เหมาะกับเนื้อหา</p>
+                        </div>
+                    </div>
+                    <div class="card row">
+                        <img src="img/pic8.jpg" alt="หน้าเว็บ Assignment 4-2 เว็บไซต์ข่าวมีพาดหัวข่าว เนื้อข่าว และรูปประกอบ" width="1820" height="981" loading="lazy">
+                        <div class="info">
+                            <h3>Assignment 4-2</h3>
+                            <p><strong>โจทย์:</strong> ออกแบบหน้าเว็บไซต์ข่าว</p>
+                            <p><strong>สิ่งที่ได้เรียนรู้:</strong> การเลือกสีและจัดองค์ประกอบให้เหมาะกับเนื้อหา</p>
+                        </div>
+                    </div>
+                    <div class="card row">
+                        <img src="img/pic9.jpg" alt="หน้าเว็บ Assignment 6 กล่อง Design Box Model 1 ถึง 3 ที่มีเส้นขอบต่างสีและต่างแบบ" width="915" height="421" loading="lazy">
+                        <div class="info">
+                            <h3>Assignment 6</h3>
+                            <p><strong>โจทย์:</strong> การกำหนด Border แบบต่างๆ</p>
+                            <p><strong>สิ่งที่ได้เรียนรู้:</strong> วิธีใช้งาน border เบื้องต้นพร้อมวิธีตกแต่ง</p>
+                        </div>
+                    </div>
+                    <div class="card row">
+                        <img src="img/pic10.jpg" alt="หน้าเว็บ Assignment 7 ข้อความ Learn to Code พร้อมตัวอย่างโค้ด HTML" width="1662" height="896" loading="lazy">
+                        <div class="info">
+                            <h3>Assignment 7</h3>
+                            <p><strong>โจทย์:</strong> ออกแบบหน้าเว็บไซต์สอนเขียนโค้ด</p>
+                            <p><strong>สิ่งที่ได้เรียนรู้:</strong> ได้เรียนรู้การจัด Layout หน้าเว็บ</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </article>
+    </main>
+    <footer>
+        <p>&copy; 2026 [Tanachotpat Khamphan 683380419-8] <span aria-hidden="true">●</span> <span lang="en">CP352201 Web Design Technology Sec.2</span></p>
+        <nav aria-label="เมนูส่วนท้าย">
+            <ul>
+                <li><a href="index.html">หน้าแรก</a></li>
+                <li><a href="about.html">เกี่ยวกับ</a></li>
+                <li><a href="hobby.html">งานอดิเรก</a></li>
+                <li><a href="works.html">ผลงาน</a></li>
+                <li><a href="experience.html">ประสบการณ์</a></li>
+            </ul>
+        </nav>
+    </footer>
+</body>
+
+</html>

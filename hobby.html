@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="th">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>งานอดิเรก - My Personal Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mitr:wght@200;300;400;500;600;700&amp;display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css"
+        integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+
+<body>
+    <a class="skip-link" href="#main-content">ข้ามไปยังเนื้อหาหลัก</a>
+    <header>
+        <input type="checkbox" id="menu-check" class="menu-check" aria-controls="main-nav">
+        <div class="h1-menu">
+            <p class="logo" lang="en">My Personal Portfolio</p>
+            <label for="menu-check"><span class="sr-only">เปิด/ปิดเมนูหลัก</span></label>
+        </div>
+        <nav id="main-nav" aria-label="เมนูหลัก">
+            <ul>
+                <li><a href="index.html"><i class="fa-solid fa-house" aria-hidden="true"></i>หน้าแรก</a></li>
+                <li><a href="about.html"><i class="fa-solid fa-circle-info" aria-hidden="true"></i>เกี่ยวกับ</a></li>
+                <li><a href="hobby.html" class="active" aria-current="page"><i class="fa-solid fa-rocket" aria-hidden="true"></i>งานอดิเรก</a></li>
+                <li><a href="works.html"><i class="fa-solid fa-box-archive" aria-hidden="true"></i>ผลงาน</a></li>
+                <li><a href="experience.html"><i class="fa-solid fa-street-view" aria-hidden="true"></i>ประสบการณ์</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main id="main-content" tabindex="-1">
+        <nav class="breadcrumb" aria-label="เส้นทางนำทาง">
+            <ol>
+                <li><a href="index.html" lang="en">Home</a></li>
+                <li><span class="arrow" aria-hidden="true">&gt;</span><a href="hobby.html" class="active" aria-current="page" lang="en">Hobby Page</a></li>
+            </ol>
+        </nav>
+        <article class="page-content">
+            <h1>งานอดิเรก</h1>
+            <p class="lead">เวลาว่างผมชอบลงมือสร้างสิ่งต่าง ๆ ด้วยโค้ด ซึ่งช่วยให้ได้ฝึกฝีมือและสนุกไปพร้อมกัน</p>
+
+            <section class="block" aria-labelledby="h-hobby">
+                <h2 id="h-hobby">สิ่งที่ชอบทำเวลาว่าง</h2>
+                <div class="grid">
+                    <div class="card">
+                        <img src="img/pic23.jpg" alt="โค้ดโปรแกรมตัวอักษรสีเหลืองบนพื้นหลังสีดำ" width="547" height="365" loading="lazy">
+                        <h3>เขียนโปรแกรม</h3>
+                        <p>ชอบฝึกเขียนโค้ดหลายภาษา ทั้ง PHP, Java, C/C++ และ Kotlin
+                            เพราะได้เห็นผลลัพธ์จากสิ่งที่คิดออกมาเป็นโปรแกรมที่ใช้งานได้จริง</p>
+                    </div>
+                    <div class="card">
+                        <img src="img/pic24.jpg" alt="มือทั้งสองข้างกำลังเล่นเปียโน" width="678" height="452" loading="lazy">
+                        <h3>เล่นเปียโน</h3>
+                        <p>เล่นเพื่อให้สมองผ่อนคลายก่อนกลับไปเขียนโค้ดต่อ</p>
+                    </div>
+                    <div class="card">
+                        <img src="img/pic25.jpg" alt="หน้าจอโปรแกรม Roblox Studio แสดงแมพเกมสวนสนุกที่กำลังสร้าง" width="650" height="472" loading="lazy">
+                        <h3>เกมและการพัฒนาเกม</h3>
+                        <p>มีหลายเกมไม่ว่าจะเป็นเซิร์ฟเวอร์เกม Minecraft หรือทำแมพเกม Roblox</p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="block" aria-labelledby="h-link">
+                <h2 id="h-link">งานอดิเรกเชื่อมกับการเรียนอย่างไร</h2>
+                <div class="card wide-card">
+                    <p class="indent">"การเขียนโปรแกรมนอกเวลาเรียนทำให้เข้าใจเนื้อหาในห้องได้เร็วขึ้น
+                        การทำเซิร์ฟเวอร์และแมปเกมช่วยให้ได้ฝึกออกแบบหน้าจอ การจัดวาง และแก้ปัญหาจริง
+                        ส่วนการเล่นเปียโนเป็นช่วงเวลาพักสมองระหว่างทำโปรเจกต์ ช่วยให้กลับมาทำงานต่อได้อย่างมีสมาธิ"</p>
+                </div>
+            </section>
+        </article>
+    </main>
+    <footer>
+        <p>&copy; 2026 [Tanachotpat Khamphan 683380419-8] <span aria-hidden="true">●</span> <span lang="en">CP352201 Web Design Technology Sec.2</span></p>
+        <nav aria-label="เมนูส่วนท้าย">
+            <ul>
+                <li><a href="index.html">หน้าแรก</a></li>
+                <li><a href="about.html">เกี่ยวกับ</a></li>
+                <li><a href="hobby.html">งานอดิเรก</a></li>
+                <li><a href="works.html">ผลงาน</a></li>
+                <li><a href="experience.html">ประสบการณ์</a></li>
+            </ul>
+        </nav>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="th">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>เกี่ยวกับ - My Personal Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mitr:wght@200;300;400;500;600;700&amp;display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css"
+        integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+
+<body>
+    <a class="skip-link" href="#main-content">ข้ามไปยังเนื้อหาหลัก</a>
+    <header>
+        <input type="checkbox" id="menu-check" class="menu-check" aria-controls="main-nav">
+        <div class="h1-menu">
+            <p class="logo" lang="en">My Personal Portfolio</p>
+            <label for="menu-check"><span class="sr-only">เปิด/ปิดเมนูหลัก</span></label>
+        </div>
+        <nav id="main-nav" aria-label="เมนูหลัก">
+            <ul>
+                <li><a href="index.html"><i class="fa-solid fa-house" aria-hidden="true"></i>หน้าแรก</a></li>
+                <li><a href="about.html" class="active" aria-current="page"><i class="fa-solid fa-circle-info" aria-hidden="true"></i>เกี่ยวกับ</a></li>
+                <li><a href="hobby.html"><i class="fa-solid fa-rocket" aria-hidden="true"></i>งานอดิเรก</a></li>
+                <li><a href="works.html"><i class="fa-solid fa-box-archive" aria-hidden="true"></i>ผลงาน</a></li>
+                <li><a href="experience.html"><i class="fa-solid fa-street-view" aria-hidden="true"></i>ประสบการณ์</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main id="main-content" tabindex="-1">
+        <nav class="breadcrumb" aria-label="เส้นทางนำทาง">
+            <ol>
+                <li><a href="index.html" lang="en">Home</a></li>
+                <li><span class="arrow" aria-hidden="true">&gt;</span><a href="about.html" class="active" aria-current="page" lang="en">About Page</a></li>
+            </ol>
+        </nav>
+        <article class="about-content">
+            <div class="zone1">
+                <div class="title">
+                    <h1>เกี่ยวกับฉัน</h1>
+                </div>
+                <div class="image">
+                    <img src="img/pic7.jpg" alt="ภาพถ่ายเซลฟี่ของผู้จัดทำเว็บไซต์ ยิ้มอยู่หน้าวิวภูเขา" width="4896" height="3672">
+                </div>
+            </div>
+            <div class="zone2">
+                <div class="title">
+                    <h2>แนะนำตัว</h2>
+                </div>
+                <p class="indent">ผมชื่อเล่นไผ่ กำลังศึกษาอยู่คณะวิทยาลัยการคอมพิวเตอร์ สาขาวิทยาการคอมพิวเตอร์ ผมมีความสนใจด้านการเขียนโปรแกรม การพัฒนาเว็บไซต์ และการพัฒนาเกม เป้าหมายของผมคือการพัฒนาทักษะด้านการเขียนโปรแกรมและนำความรู้ไปสร้างผลงานที่ใช้งานได้จริง ผมเลือกเรียนสาขานี้เพราะเป็นสิ่งที่สนใจและต้องการพัฒนาตัวเองเพื่อประกอบอาชีพด้านเทคโนโลยีในอนาคต</p>
+                <div class="content">
+                    <table>
+                        <caption class="sr-only">ข้อมูลส่วนตัว</caption>
+                        <tbody>
+                            <tr>
+                                <th scope="row" class="head">ชื่อ-นามสกุล:</th>
+                                <td class="tail">นาย ธนะโชติพัฒน์ คำพันธ์</td>
+                            </tr>
+                            <tr>
+                                <th scope="row" class="head">ชั้นปี-สาขา:</th>
+                                <td class="tail">ชั้นปี 2 สาขา วิทยาการคอมพิวเตอร์</td>
+                            </tr>
+                            <tr>
+                                <th scope="row" class="head">มหาวิทยาลัย:</th>
+                                <td class="tail">มหาวิทยาลัยขอนแก่น</td>
+                            </tr>
+                            <tr>
+                                <th scope="row" class="head">อีเมล:</th>
+                                <td class="tail">tanachotpat.k@kkumail.com</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="content2">
+                    <h2>ทักษะพื้นฐาน</h2>
+                    <ul>
+                        <li>ภาษา HTML / CSS สำหรับออกแบบหน้าเว็บไซต์</li>
+                        <li>ภาษา PHP / JAVA สำหรับสร้างโปรแกรมหรือสร้างเกม</li>
+                        <li>ภาษา C / C++ สำหรับโปรแกรมพื้นฐานเช่น Arduino</li>
+                        <li>ภาษา Kotlin สำหรับสร้าง Mobile Application</li>
+                    </ul>
+                </div>
+            </div>
+        </article>
+    </main>
+    <footer>
+        <p>&copy; 2026 [Tanachotpat Khamphan 683380419-8] <span aria-hidden="true">●</span> <span lang="en">CP352201 Web Design Technology Sec.2</span></p>
+        <nav aria-label="เมนูส่วนท้าย">
+            <ul>
+                <li><a href="index.html">หน้าแรก</a></li>
+                <li><a href="about.html">เกี่ยวกับ</a></li>
+                <li><a href="hobby.html">งานอดิเรก</a></li>
+                <li><a href="works.html">ผลงาน</a></li>
+                <li><a href="experience.html">ประสบการณ์</a></li>
+            </ul>
+        </nav>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="th">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>หน้าแรก - My Personal Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mitr:wght@200;300;400;500;600;700&amp;display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css"
+        integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+
+<body>
+    <a class="skip-link" href="#main-content">ข้ามไปยังเนื้อหาหลัก</a>
+    <header>
+        <input type="checkbox" id="menu-check" class="menu-check" aria-controls="main-nav">
+        <div class="h1-menu">
+            <p class="logo" lang="en">My Personal Portfolio</p>
+            <label for="menu-check"><span class="sr-only">เปิด/ปิดเมนูหลัก</span></label>
+        </div>
+        <nav id="main-nav" aria-label="เมนูหลัก">
+            <ul>
+                <li><a href="index.html" class="active" aria-current="page"><i class="fa-solid fa-house" aria-hidden="true"></i>หน้าแรก</a></li>
+                <li><a href="about.html"><i class="fa-solid fa-circle-info" aria-hidden="true"></i>เกี่ยวกับ</a></li>
+                <li><a href="hobby.html"><i class="fa-solid fa-rocket" aria-hidden="true"></i>งานอดิเรก</a></li>
+                <li><a href="works.html"><i class="fa-solid fa-box-archive" aria-hidden="true"></i>ผลงาน</a></li>
+                <li><a href="experience.html"><i class="fa-solid fa-street-view" aria-hidden="true"></i>ประสบการณ์</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main id="main-content" tabindex="-1">
+        <nav class="breadcrumb" aria-label="เส้นทางนำทาง">
+            <ol>
+                <li><a href="index.html" lang="en">Home</a></li>
+                <li><span class="arrow" aria-hidden="true">&gt;</span><a href="index.html" class="active" aria-current="page" lang="en">Main Page</a></li>
+            </ol>
+        </nav>
+        <article class="index-content">
+            <div class="zone1">
+                <div class="text">
+                    <p class="greeting">สวัสดีครับ ผมชื่อ</p>
+                    <h1 class="typing">"ธนะโชติพัฒน์ คำพันธ์"</h1>
+                    <p class="intro">นักศึกษาชั้นปีที่ 2 คณะ วิทยาลัยการคอมพิวเตอร์ มหาวิทยาลัยขอนแก่น</p>
+                    <div class="button">
+                        <a href="about.html" class="but1">เกี่ยวกับ</a>
+                        <a href="works.html" class="but2">ผลงาน</a>
+                    </div>
+                </div>
+                <div class="image">
+                    <img src="img/pic1.jpg" alt="ภาพถ่ายของผู้จัดทำเว็บไซต์ยืนอยู่บนจุดชมวิว มีบอลลูนลอยอยู่ด้านหลัง" width="2625" height="3281">
+                </div>
+            </div>
+            <section class="zone2" aria-labelledby="h-explore">
+                <h2 id="h-explore">สำรวจเว็บไซต์</h2>
+                <div class="content">
+                    <div class="card">
+                        <img src="img/about.svg" alt="" width="400" height="300">
+                        <h3>เกี่ยวกับ</h3>
+                        <p>ประวัติ การศึกษา และทักษะ</p>
+                        <a href="about.html">ดูเพิ่มเติม<span class="sr-only"> เรื่องเกี่ยวกับ</span></a>
+                    </div>
+                    <div class="card">
+                        <img src="img/hobby.svg" alt="" width="400" height="300">
+                        <h3>งานอดิเรก</h3>
+                        <p>สิ่งที่ชอบทำเวลาว่าง</p>
+                        <a href="hobby.html">ดูเพิ่มเติม<span class="sr-only"> เรื่องงานอดิเรก</span></a>
+                    </div>
+                    <div class="card">
+                        <img src="img/works.svg" alt="" width="400" height="300">
+                        <h3>ผลงาน</h3>
+                        <p>งานใน Lab, Assignment</p>
+                        <a href="works.html">ดูเพิ่มเติม<span class="sr-only"> เรื่องผลงาน</span></a>
+                    </div>
+                    <div class="card">
+                        <img src="img/experience.svg" alt="" width="400" height="300">
+                        <h3>ประสบการณ์</h3>
+                        <p>สิ่งที่ได้เรียนรู้และเสนอแนะ</p>
+                        <a href="experience.html">ดูเพิ่มเติม<span class="sr-only"> เรื่องประสบการณ์</span></a>
+                    </div>
+                </div>
+            </section>
+            <section class="zone2" aria-labelledby="h-latest">
+                <div class="zone2-head">
+                    <h2 id="h-latest">ผลงานล่าสุด</h2>
+                    <a href="works.html" class="see-all">ดูผลงานทั้งหมด<i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a>
+                </div>
+                <div class="content">
+                    <div class="card">
+                        <img src="img/pic3.png" alt="ภาพหน้าจอเกม Lost and Found: Apocalypse City ตัวละครถือปืนอยู่กลางเมืองที่ถูกทำลาย" width="1856" height="945">
+                        <h3>Group Project</h3>
+                        <p>โปรเจคเว็บเกม Lost and Found: Apocalypse City ออกแบบหน้า Layout จำนวน 20 หน้า</p>
+                    </div>
+                    <div class="card">
+                        <img src="img/pic4.jpg" alt="หน้าเว็บ Assignment 1 พื้นหลังสีเขียวมิ้นต์ มีเมนูด้านข้าง ตารางคะแนน และโลโก้ Google" width="1287" height="946">
+                        <h3>Assignment 1</h3>
+                        <p>การจัด Layout หน้าเว็บ</p>
+                    </div>
+                    <div class="card">
+                        <img src="img/pic6.jpg" alt="หน้าเว็บ Assignment 4 หัวข้อ My Favorite Movies แสดงรายชื่อหนังพร้อมโปสเตอร์" width="1847" height="961">
+                        <h3>Assignment 4</h3>
+                        <p>ออกแบบหน้าเว็บหนังที่ชอบ</p>
+                    </div>
+                </div>
+            </section>
+        </article>
+    </main>
+    <footer>
+        <p>&copy; 2026 [Tanachotpat Khamphan 683380419-8] <span aria-hidden="true">●</span> <span lang="en">CP352201 Web Design Technology Sec.2</span></p>
+        <nav aria-label="เมนูส่วนท้าย">
+            <ul>
+                <li><a href="index.html">หน้าแรก</a></li>
+                <li><a href="about.html">เกี่ยวกับ</a></li>
+                <li><a href="hobby.html">งานอดิเรก</a></li>
+                <li><a href="works.html">ผลงาน</a></li>
+                <li><a href="experience.html">ประสบการณ์</a></li>
+            </ul>
+        </nav>
+    </footer>
+</body>
+
+</html>
